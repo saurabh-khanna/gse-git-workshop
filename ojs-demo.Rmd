@@ -27,9 +27,9 @@ df %>% arrange(desc(total_record_count)) %>% glimpse()
 ```
 
 
-<!-- ## Articles published -->
+## Articles published
 
-```{r, eval= F}
+```{r, eval= T}
 total_records <-
   df %>%
   select(record_count_2010:record_count_2021) %>% 
@@ -42,12 +42,13 @@ total_records <-
   summarize_all(sum) %>% 
   pull(value)
 
-# Total articles published till date: __`r format(total_records, big.mark = ",", scientific = FALSE)`__
+
 ```
 
+Total articles published till date: __`r format(total_records, big.mark = ",", scientific = FALSE)`__
 
 
-```{r, fig.retina=4, out.width="100%", eval=F}
+```{r, fig.retina=4, out.width="100%", eval=T}
 df %>%
   select(record_count_2010:record_count_2021) %>% 
   pivot_longer(cols = starts_with("record_count")) %>% 

@@ -4,6 +4,7 @@ Saurabh Khanna
 \[January 25, 2022\]
 
 -   [Scanning the data](#scanning-the-data)
+-   [Articles published](#articles-published)
 
 ## Scanning the data
 
@@ -44,4 +45,8 @@ Saurabh Khanna
     ## $ record_count_2020     <dbl> 2459, 1, 13815, 12795, 6691, 4605, 73, 118, 817,…
     ## $ record_count_2021     <dbl> 1668, 4404, 0, 38, 6232, 7131, 0, 19, 0, 0, 5633…
 
-<!-- ## Articles published -->
+## Articles published
+
+Total articles published till date: **6,227,889**
+
+<img src="ojs-demo_files/figure-gfm/unnamed-chunk-4-1.png" width="100%" />
